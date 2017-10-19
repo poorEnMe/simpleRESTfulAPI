@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title%></h1>
+<form action="./data/startsession" method="post">
+    <p>
+        <input type="text" required="required"  name="account" placeholder="account">
+    </p>
+
+    <p>
+        <input type="password" required="required"  name="password" placeholder="password">
+    </p>
+    <p>
+        <input type="submit" value="getsession">
+    </p>
+</form>
+
+</body>
+</html>
